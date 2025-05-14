@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend of studior ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "start:dev": "nodemon app.js"
+  },
+  "keywords": [
+    "backend",
+    "express",
+    "study",
+    "planner",
+    "tasks",
+    "subjects",
+    "node.js",
+    "education"
+  ],
+  "author": "Olina Savčuková",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
