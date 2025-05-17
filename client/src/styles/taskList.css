@@ -1,0 +1,17 @@
+.task-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+}
+
+.task-list-empty {
+  font-style: italic;
+  color: var(--color-text-light, #777);
+  padding: 16px;
+  text-align: center;
+  font-size: 0.9rem;
+  border-radius: var(--border-radius-main);
+}
